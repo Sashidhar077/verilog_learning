@@ -18,7 +18,8 @@ module nor_gate_tb;
     initial begin
         // Monitor changes in signals
         $monitor("Time = %0t | a = %b, b = %b | y = %b", $time, a, b, y);
-
+        $dumpfile("nor_gate.vcd");
+        $dumpvars(0,nor_gate_tb);
         // Loop through all 4 combinations (00, 01, 10, 11)
         for (i = 0; i < 4; i = i + 1) begin
             {a, b} = i; // Concatenate a and b to take the binary value of i
