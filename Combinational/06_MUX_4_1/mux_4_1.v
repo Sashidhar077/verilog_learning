@@ -14,8 +14,6 @@ always @(*) begin
             default Y=2'b00;
         endcase
 
-
-
 end
 
 
