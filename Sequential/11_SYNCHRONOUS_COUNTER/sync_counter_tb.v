@@ -11,7 +11,7 @@ module sync_counter_tb;
     wire [3:0] q;
 
     // Instantiate the Unit Under Test (UUT)
-    sync_counter uut (
+    sync_up_counter uut (
         .clk(clk),
         .rst_n(rst_n),
         .enable(enable),
