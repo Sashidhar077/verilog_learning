@@ -8,8 +8,6 @@ reg q0,q1,q2,q3;
 
 always@(posedge clk)
 
-
-
 endmodule
 
 
