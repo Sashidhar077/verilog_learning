@@ -60,9 +60,7 @@ Unlike an up counter, each flip-flop is triggered by the **falling edge** of the
 iverilog -o asynchronous_down_counter_sim asynchronous_down_counter.v asynchronous_down_counter_tb.v
 vvp asynchronous_down_counter_sim
 gtkwave asynchronous_down_counter.vcd
-```
 
----
 
 ## Expected Output
 
